@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <github.alex.progressview.LineProgressView
+        android:id="@+id/lpv"
+        android:layout_margin="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="16dp"
+        />
+
+    <SeekBar
+        android:id="@+id/sb_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lpv"
+        android:layout_margin="16dp"
+        android:padding="8dp"/>
+
+    <SeekBar
+        android:id="@+id/sb_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sb_1"
+        android:layout_margin="16dp"
+        android:padding="8dp"/>
+</RelativeLayout>
